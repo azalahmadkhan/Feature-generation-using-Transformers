@@ -10,7 +10,7 @@ The `decoder` is a single linear layer that maps the output of the transformer e
 
 Finally, the `forward` method applies each of these three components in order to compute the output tensor `y` from the input tensor `x`.
 
-The model uses the Rectified Linear Unit (ReLU) activation function after the first linear layer and the Cross-Entropy Loss function for classification. It is trained using the Adam optimizer with a learning rate of 0.0001 over 100 epochs and a batch size of 16.
+The model uses the Rectified Linear Unit (ReLU) activation function after the first linear layer and the Cross-Entropy Loss function for classification. It is trained using the Adam optimizer with a learning rate of 0.0001 over 1000 epochs and a batch size of 16.
 
 
 ![image](results.png)
