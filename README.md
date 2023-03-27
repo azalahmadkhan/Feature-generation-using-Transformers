@@ -13,4 +13,4 @@ Finally, the `forward` method applies each of these three components in order to
 The model uses the Rectified Linear Unit (ReLU) activation function after the first linear layer and the Cross-Entropy Loss function for classification. It is trained using the Adam optimizer with a learning rate of 0.0001 over 1000 epochs and a batch size of 16.
 
 
-![image](results_graph.png)
+![image](results_graphs.png)
