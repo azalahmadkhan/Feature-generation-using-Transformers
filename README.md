@@ -1,6 +1,6 @@
 # Feature-generation-using-Transformers
 
-The `TransformerModel` is composed of three main components:
+The `Transformer Model` is composed of three main components:
 
 The `pos_encoder` is a sequence of two linear layers that maps the input tensor `x` to a higher-dimensional space called the model dimension `d_model`. It also applies a ReLU activation function after the first linear layer.
 
